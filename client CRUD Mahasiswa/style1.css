@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #69d2e7;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #a7dbd8;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.042);
+    border-radius: 8px;
+}
+.edit-button {
+    background-color: #f3a20d;
+    color: #fff;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f54242;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tambah-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 8px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 0.5px solid #00b4fc;
+}
+
+th {
+    background-color: #00b4fc;
+    color: #fff;
+}
+
+.border-kiri {
+    border-radius: 8px 0 0 0;
+}
+
+.border-kanan {
+    border-radius: 0 8px 0 0;
+}
+
+
+
